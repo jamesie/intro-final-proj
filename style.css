@@ -1,0 +1,74 @@
+body {background-color:#383838;
+  font-family: Verdana, sans-serif;
+  ;}
+h1{color:green;}
+
+#rateContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#mainContainer{
+  background-color: white;
+  width: 30%;
+  padding: 30px;
+  border-radius: 30px;
+
+}
+
+#mainTitle{
+text-align: center;
+color: #777777;
+font-style: bold;
+}
+
+#rate{
+  -webkit-appearance: none;
+    width: 50%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+}
+
+#inputsText{
+  width: 100%;
+  margin-right: 30px;
+  font-size: 25px;
+  font-style: bold;
+
+}
+#inputs{
+  width: 100%;
+}
+
+#inputsWrapper{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#contentWrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#paragraph{
+  font-size: 15px;
+  margin-left: 25px;
+
+}
+#button{
+  margin-top: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+

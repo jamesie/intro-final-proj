@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onmouseenter="rate()">
+    <div id="mainContainer">
+        <h1 id="mainTitle"><b>Simple Interest Calculator</b></h1>
+
+        <div id="contentWrapper">
+            <div id="inputsWrapper">
+                <div id="inputsText">
+                    Amount<br />
+                    Rate<br />
+                    No. of Years <br />
+                    <button onclick="compute()" id="button">Compute Interest</button>
+                </div>
+                <div id="inputs">
+                    <input type="number" id="principal"> <br />
+                    <div id="rateContainer">
+                        <input type="range" id="rate" min="0" max="100" value="3.5" oninput="rate()" onchange="rate()"
+                            step="0.1">
+                        <div id="interestRate"></div>
+                    </div><br />
+                    <select name="years" id="years">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select> <br />
+                </div>
+            </div>
+
+            <div id="paragraph">
+                <pre id="res"></pre>
+            </div>
+        </div>
+        <div>© everyone can get rich</div>
+    </div>
+</body>
+
+</html>
