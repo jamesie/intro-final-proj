@@ -42,6 +42,11 @@ font-style: bold;
   font-style: bold;
 
 }
+
+.flex{
+  display: flex;
+}
+
 #inputs{
   width: 100%;
 }
